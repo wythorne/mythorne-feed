@@ -31,24 +31,39 @@ function reactionDisplay(reactions) {
 }
 
 // ── Discord-flavor markdown renderer ─────────────────────────────────────────
-// Converts Discord markdown to HTML tags, then HTML-escapes the final output
-// so any HTML in the original text (e.g. <script>) is neutralised.
-//
-// Order matters: markdown patterns must run on raw text (before escaping),
-// then escHtml cleans the result. Using non-greedy .*? so "**!**" → <strong>!</strong>.
+// Converts Discord markdown to HTML while HTML-escaping all text content.
+// Strategy: run a protect/escape/unprotect cycle so HTML tags we add are
+// preserved, but any raw HTML in the original text is neutralised.
 function renderMd(text) {
   if (!text) return ''
-  let html = text
-    // Inline code: `code` → <code>code</code>
-    .replace(/`([^`\n]+)`/g, '<code>$1</code>')
-    // Bold: **text** → <strong>text</strong>
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    // Italic: *text* → <em>text</em>  (not preceded/followed by *)
-    .replace(/(?<!\*)\*(?!\*)([^\*\n]+)(?<!\*)\*(?!\*)/g, '<em>$1</em>')
-    // Strikethrough: ~~text~~ → <del>text</del>
-    .replace(/~~(.+?)~~/g, '<del>$1</del>')
-  // Now HTML-escape any remaining HTML in the output (XSS guard)
-  return escHtml(html)
+
+  // Placeholder tokens for HTML tag delimiters — unlikely to appear in user text
+  const OPEN  = '\x00OPEN\x00'
+  const CLOSE = '\x00CLOSE\x00'
+  const AMP   = '\x00AMP\x00'
+
+  // Step 1: Protect HTML tag delimiters in the raw text
+  let s = text
+    .replace(/</g, OPEN)
+    .replace(/>/g, CLOSE)
+    .replace(/&/g, AMP)
+
+  // Step 2: Convert Discord markdown → HTML (content is still plain text here)
+  s = s
+    // Inline code: `code` → <code>escHtml(code)</code>
+    .replace(/`([^`\n]+)`/g, (_, code) => `<code>${escHtml(code)}</code>`)
+    // Bold: **text** → <strong>escHtml(text)</strong>
+    .replace(/\*\*(.+?)\*\*/g, (_, code) => `<strong>${escHtml(code)}</strong>`)
+    // Italic: *text* → <em>escHtml(text)</em>
+    .replace(/(?<!\*)\*(?!\*)([^\*\n]+)(?<!\*)\*(?!\*)/g, (_, code) => `<em>${escHtml(code)}</em>`)
+    // Strikethrough: ~~text~~ → <del>escHtml(text)</del>
+    .replace(/~~(.+?)~~/g, (_, code) => `<del>${escHtml(code)}</del>`)
+
+  // Step 3: Restore protected chars as proper HTML entities
+  return s
+    .replace(/\x00OPEN\x00/g, '&lt;')
+    .replace(/\x00CLOSE\x00/g, '&gt;')
+    .replace(/\x00AMP\x00/g, '&amp;')
 }
 
 // ── Post content renderer ────────────────────────────────────────────────────
