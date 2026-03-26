@@ -1,0 +1,50 @@
+[
+  {
+    "handle": "solene_vael",
+    "display_name": "Solène Vael",
+    "writer_id": "111111111111111111",
+    "writer_name": "Rowan",
+    "pronouns": "she/her",
+    "wythorne_class": "Year 2, Conservatory",
+    "bio": "\"The archive does not forget. Neither do I.\"",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": "https://instagram.com",
+      "steam": null,
+      "spotify": null,
+      "twitter": "https://twitter.com"
+    }
+  },
+  {
+    "handle": "caspian_grey",
+    "display_name": "Caspian Grey",
+    "writer_id": "111111111111111111",
+    "writer_name": "Rowan",
+    "pronouns": "they/them",
+    "wythorne_class": "Year 3, Conservatory",
+    "bio": "\"I collect maps of places that don't exist yet.\"",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": "https://store.steampowered.com",
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "lyra_mourne",
+    "display_name": "Lyra Mourne",
+    "writer_id": "222222222222222222",
+    "writer_name": "Ember",
+    "pronouns": "she/they",
+    "wythorne_class": "Year 1, Conservatory",
+    "bio": "\"Ghosts make better company than most people.\"",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": "https://instagram.com",
+      "steam": null,
+      "spotify": "https://spotify.com",
+      "twitter": null
+    }
+  }
+]

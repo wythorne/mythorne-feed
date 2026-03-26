@@ -1,0 +1,67 @@
+name: Build & Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'src/**'      # Only rebuild on data changes, not source changes
+      - 'index.html'
+      - 'package.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout site repo
+        uses: actions/checkout@v4
+
+      # Pull fresh data from the private bot repo
+      - name: Checkout data from private bot repo
+        uses: actions/checkout@v4
+        with:
+          repository: wythorne/mythorne-feed-bot
+          path: bot-data
+          token: ${{ secrets.BOT_REPO_TOKEN }}
+          sparse-checkout: |
+            data/muses.json
+            data/posts.json
+            data/meta.json
+          sparse-checkout-cone-mode: false
+
+      - name: Copy data into site
+        run: |
+          mkdir -p public/data
+          cp bot-data/data/muses.json public/data/
+          cp bot-data/data/posts.json public/data/
+          cp bot-data/data/meta.json public/data/
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install & Build
+        run: |
+          npm ci
+          npm run build
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

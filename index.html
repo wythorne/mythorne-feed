@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyWythorne — The Compendium</title>
+  <meta name="description" content="A scholar's compiled archive of the Wythorne Conservatory's social traces. Muse profiles, posts, and observations — indexed and preserved." />
+  <meta property="og:title" content="MyWythorne — The Compendium" />
+  <meta property="og:description" content="The archive does not forget." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=Caveat:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="app">
+    <nav id="topbar">
+      <div class="topbar-inner">
+        <a href="#/" class="logo" id="logo-link">
+          <span class="logo-glyph">⚯</span>
+          <span class="logo-text">MyWythorne</span>
+        </a>
+        <div class="view-switcher" id="view-switcher">
+          <a href="#/" class="view-btn" id="nav-timeline" data-view="timeline">Compendium</a>
+          <a href="#/writer" class="view-btn" id="nav-writer" data-view="writer">Workshop</a>
+        </div>
+        <div class="topbar-right">
+          <span class="sync-badge" id="sync-badge" title="Last synchronised">
+            <span class="sync-dot"></span>
+            <span class="sync-label" id="sync-label">synced</span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <div id="view-container"></div>
+    </main>
+  </div>
+
+  <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">✕</button>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

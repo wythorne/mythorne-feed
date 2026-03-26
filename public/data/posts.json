@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1001",
+    "muse_handle": "solene_vael",
+    "platform": "instagram",
+    "template_type": "new_post",
+    "content": "found this in the restricted stacks. no title, no author. just seventy pages of margin notes in a language i don't recognise yet.",
+    "image_url": "",
+    "metadata": {},
+    "reactions": { "total": 14, "by_emoji": { "❤️": 8, "✨": 4, "👀": 2 } },
+    "created_at": "2026-03-25T18:04:00Z",
+    "channel_id": "123456789",
+    "jump_url": "https://discord.com/channels/000/000/1001",
+    "comments": []
+  },
+  {
+    "id": "1002",
+    "muse_handle": "caspian_grey",
+    "platform": "steam",
+    "template_type": "currently_playing",
+    "content": "",
+    "image_url": "",
+    "metadata": { "game": "Disco Elysium - The Final Cut" },
+    "reactions": { "total": 7, "by_emoji": { "❤️": 5, "😭": 2 } },
+    "created_at": "2026-03-25T16:30:00Z",
+    "channel_id": "123456789",
+    "jump_url": "https://discord.com/channels/000/000/1002",
+    "comments": []
+  },
+  {
+    "id": "1003",
+    "muse_handle": "lyra_mourne",
+    "platform": "instagram",
+    "template_type": "new_post",
+    "content": "the fog never really lifts here. you stop waiting for it to.",
+    "image_url": "",
+    "metadata": {},
+    "reactions": { "total": 22, "by_emoji": { "❤️": 12, "✨": 6, "🕯️": 4 } },
+    "created_at": "2026-03-25T14:15:00Z",
+    "channel_id": "123456789",
+    "jump_url": "https://discord.com/channels/000/000/1003",
+    "comments": [
+      {
+        "id": "2001",
+        "post_id": "1003",
+        "commenter_handle": "solene_vael",
+        "content": "documented.",
+        "created_at": "2026-03-25T14:22:00Z",
+        "jump_url": "https://discord.com/channels/000/000/2001"
+      }
+    ]
+  },
+  {
+    "id": "1004",
+    "muse_handle": "caspian_grey",
+    "platform": "maps",
+    "template_type": "location_with_companion",
+    "content": "",
+    "image_url": "",
+    "metadata": { "location": "The Cartography Wing, Level 4", "companion": "solene_vael" },
+    "reactions": { "total": 9, "by_emoji": { "❤️": 5, "🗺️": 4 } },
+    "created_at": "2026-03-24T20:00:00Z",
+    "channel_id": "123456789",
+    "jump_url": "https://discord.com/channels/000/000/1004",
+    "comments": []
+  },
+  {
+    "id": "1005",
+    "muse_handle": "solene_vael",
+    "platform": "twitter",
+    "template_type": "tweet",
+    "content": "if the archive is haunted it's only because the people who built it put too much of themselves into the shelving system",
+    "image_url": "",
+    "metadata": {},
+    "reactions": { "total": 31, "by_emoji": { "❤️": 18, "🔁": 8, "✨": 5 } },
+    "created_at": "2026-03-24T11:00:00Z",
+    "channel_id": "123456789",
+    "jump_url": "https://discord.com/channels/000/000/1005",
+    "comments": [
+      {
+        "id": "2002",
+        "post_id": "1005",
+        "commenter_handle": "lyra_mourne",
+        "content": "speaking from experience?",
+        "created_at": "2026-03-24T11:12:00Z",
+        "jump_url": "https://discord.com/channels/000/000/2002"
+      },
+      {
+        "id": "2003",
+        "post_id": "1005",
+        "commenter_handle": "caspian_grey",
+        "content": "the shelving system is extremely haunted. the call numbers keep changing.",
+        "created_at": "2026-03-24T11:45:00Z",
+        "jump_url": "https://discord.com/channels/000/000/2003"
+      }
+    ]
+  },
+  {
+    "id": "1006",
+    "muse_handle": "lyra_mourne",
+    "platform": "netflix",
+    "template_type": "watching",
+    "content": "",
+    "image_url": "",
+    "metadata": { "show": "The Haunting of Hill House" },
+    "reactions": { "total": 11, "by_emoji": { "❤️": 7, "😱": 4 } },
+    "created_at": "2026-03-23T22:00:00Z",
+    "channel_id": "123456789",
+    "jump_url": "https://discord.com/channels/000/000/1006",
+    "comments": []
+  }
+]
