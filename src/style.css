@@ -1015,6 +1015,33 @@ img { max-width: 100%; display: block; }
 .fade-up {
   animation: fade-up 0.4s var(--ease-smooth) both;
 }
+
+/* ─── Rendered markdown ─────────────────────────────────────────────────── */
+.card-body code {
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: 3px;
+  padding: .1em .35em;
+  font-size: .88em;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--accent-rose, #f4a0b5);
+}
+
+.card-body strong {
+  color: var(--paper, #f4f0e8);
+  font-weight: 600;
+}
+
+.card-body em {
+  font-style: italic;
+  color: rgba(244,240,232,.85);
+}
+
+.card-body del {
+  opacity: .5;
+  text-decoration: line-through;
+}
+
 /* ─── Page Transitions (Zoom Feel) ────────────────────────────────────────── */
 @keyframes view-enter {
   from { opacity: 0; transform: scale(0.96); filter: blur(4px); }

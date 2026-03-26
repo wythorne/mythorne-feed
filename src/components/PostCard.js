@@ -30,6 +30,27 @@ function reactionDisplay(reactions) {
   return `<span class="reaction-count" title="Reactions from Discord">♡ ${reactions.total}${topEmoji ? '  ·  ' + topEmoji : ''}</span>`
 }
 
+// ── Discord-flavor markdown renderer ─────────────────────────────────────────
+// Converts Discord markdown to HTML tags, then HTML-escapes the final output
+// so any HTML in the original text (e.g. <script>) is neutralised.
+//
+// Order matters: markdown patterns must run on raw text (before escaping),
+// then escHtml cleans the result. Using non-greedy .*? so "**!**" → <strong>!</strong>.
+function renderMd(text) {
+  if (!text) return ''
+  let html = text
+    // Inline code: `code` → <code>code</code>
+    .replace(/`([^`\n]+)`/g, '<code>$1</code>')
+    // Bold: **text** → <strong>text</strong>
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    // Italic: *text* → <em>text</em>  (not preceded/followed by *)
+    .replace(/(?<!\*)\*(?!\*)([^\*\n]+)(?<!\*)\*(?!\*)/g, '<em>$1</em>')
+    // Strikethrough: ~~text~~ → <del>text</del>
+    .replace(/~~(.+?)~~/g, '<del>$1</del>')
+  // Now HTML-escape any remaining HTML in the output (XSS guard)
+  return escHtml(html)
+}
+
 // ── Post content renderer ────────────────────────────────────────────────────
 function renderPostContent(post) {
   const { platform, template_type, content, metadata } = post
@@ -38,12 +59,12 @@ function renderPostContent(post) {
   switch (platform) {
     case 'instagram':
       if (template_type === 'new_post') {
-        return `<p class="card-body">${escHtml(content)}</p>`
+        return `<p class="card-body">${renderMd(content)}</p>`
       }
       if (template_type === 'comment') {
         return `<p class="card-body metadata-line">
           commented on <span class="metadata-value">@${escHtml(m.post_author || '?')}</span>'s photo
-          ${content ? `<br/><em>"${escHtml(content)}"</em>` : ''}
+          ${content ? `<br/><em>"${renderMd(content)}"</em>` : ''}
         </p>`
       }
       break
@@ -53,7 +74,7 @@ function renderPostContent(post) {
           retweeted <span class="metadata-value">@${escHtml(m.original_author || '?')}</span>
         </p>`
       }
-      return `<p class="card-body">${escHtml(content)}</p>`
+      return `<p class="card-body">${renderMd(content)}</p>`
     case 'steam':
       if (template_type === 'time_played') {
         return `<p class="card-body metadata-line">
@@ -88,10 +109,10 @@ function renderPostContent(post) {
         ${m.artist ? `by <span class="metadata-value">${escHtml(m.artist)}</span>` : ''}
       </p>`
     default:
-      return `<p class="card-body">${escHtml(content || '')}</p>`
+      return `<p class="card-body">${renderMd(content || '')}</p>`
   }
 
-  return `<p class="card-body">${escHtml(content || '')}</p>`
+  return `<p class="card-body">${renderMd(content || '')}</p>`
 }
 
 // ── Comment thread ────────────────────────────────────────────────────────────
@@ -102,7 +123,7 @@ function renderComments(comments) {
       ${comments.map(c => `
         <div class="comment-note">
           <div class="comment-handle">@${escHtml(c.commenter_handle)}</div>
-          <div class="comment-content">${escHtml(c.content)}</div>
+          <div class="comment-content">${renderMd(c.content)}</div>
           <div class="comment-footer">
             <a href="${escAttr(c.jump_url)}" target="_blank" rel="noopener" title="View in Discord">↗ discord</a>
           </div>
