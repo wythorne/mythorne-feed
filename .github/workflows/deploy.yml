@@ -3,10 +3,6 @@ name: Build & Deploy to GitHub Pages
 on:
   push:
     branches: [main]
-    paths-ignore:
-      - 'src/**'      # Only rebuild on data changes, not source changes
-      - 'index.html'
-      - 'package.json'
   workflow_dispatch:
 
 permissions:
@@ -25,25 +21,32 @@ jobs:
       - name: Checkout site repo
         uses: actions/checkout@v4
 
-      # Pull fresh data from the private bot repo
-      - name: Checkout data from private bot repo
-        uses: actions/checkout@v4
-        with:
-          repository: wythorne/mythorne-feed-bot
-          path: bot-data
-          token: ${{ secrets.BOT_REPO_TOKEN }}
-          sparse-checkout: |
-            data/muses.json
-            data/posts.json
-            data/meta.json
-          sparse-checkout-cone-mode: false
-
-      - name: Copy data into site
+      # Download latest data from the public mythorne-feed repo via GitHub API
+      # Bot pushes data here after each sync. No token needed for public repos.
+      - name: Download latest data
         run: |
-          mkdir -p public/data
-          cp bot-data/data/muses.json public/data/
-          cp bot-data/data/posts.json public/data/
-          cp bot-data/data/meta.json public/data/
+          REPO="wythorne/mythorne-feed"
+          BRANCH="main"
+
+          for file in muses posts meta; do
+            DEST="public/data/${file}.json"
+            echo "Fetching ${DEST}..."
+            STATUS=$(curl -sSL -w "%{http_code}" -o "${DEST}" \
+              -H "Accept: application/vnd.github.v3.raw" \
+              "https://api.github.com/repos/${REPO}/contents/public/data/${file}.json?ref=${BRANCH}")
+
+            if [ "$STATUS" = "200" ]; then
+              echo "  ✓ ${DEST} ✓"
+            else
+              echo "  ✗ ${DEST} (HTTP ${STATUS})"
+              # Remove empty file on failure
+              rm -f "${DEST}"
+            fi
+          done
+
+          echo ""
+          echo "=== public/data/ after download ==="
+          ls -la public/data/ 2>/dev/null || echo "(missing)"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -53,9 +56,7 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - name: Install & Build
-        run: |
-          npm ci
-          npm run build
+        run: npm ci && npm run build
 
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
