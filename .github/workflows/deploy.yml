@@ -55,7 +55,10 @@ jobs:
           node-version: '20'
 
       - name: Install & Build
-        run: npm ci && npm run build
+        run: |
+          # Clear any stale Vite cache from previous runs
+          rm -rf node_modules/.vite
+          npm ci && npm run build
 
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
