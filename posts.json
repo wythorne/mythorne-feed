@@ -93,5 +93,38 @@
       "total": 0,
       "by_emoji": {}
     }
+  },
+  {
+    "id": "1486874568022036531",
+    "muse_handle": "ferretry",
+    "platform": "steam",
+    "template_type": "time_played",
+    "content": "",
+    "image_url": "",
+    "metadata": {
+      "game": "@FERRETRY",
+      "play_duration": "SPIRITFARER"
+    },
+    "created_at": "2026-03-26T23:48:41.810000Z",
+    "channel_id": "1486584152185766069",
+    "jump_url": "https://discord.com/channels/1229134964956729385/1486584152185766069/1486874568022036531",
+    "comments": []
+  },
+  {
+    "id": "1486874569200369757",
+    "muse_handle": "ferretry",
+    "platform": "steam",
+    "template_type": "time_played",
+    "content": "",
+    "image_url": "",
+    "metadata": {
+      "game": "@FERRETRY",
+      "play_duration": "SPIRITFARER"
+    },
+    "created_at": "2026-03-26T23:48:42.091000Z",
+    "channel_id": "1486584152185766069",
+    "jump_url": "https://discord.com/channels/1229134964956729385/1486584152185766069/1486874569200369757",
+    "comments": [],
+    "author_avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png"
   }
 ]
