@@ -29,11 +29,12 @@ jobs:
           BRANCH="main"
 
           for file in muses posts meta; do
+            # Bot pushes data files to repo root (not public/data/)
             DEST="public/data/${file}.json"
             echo "Fetching ${DEST}..."
             STATUS=$(curl -sSL -w "%{http_code}" -o "${DEST}" \
               -H "Accept: application/vnd.github.v3.raw" \
-              "https://api.github.com/repos/${REPO}/contents/public/data/${file}.json?ref=${BRANCH}")
+              "https://api.github.com/repos/${REPO}/contents/${file}.json?ref=${BRANCH}")
 
             if [ "$STATUS" = "200" ]; then
               echo "  ✓ ${DEST} ✓"
