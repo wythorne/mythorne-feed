@@ -609,5 +609,55 @@
       "total": 0,
       "by_emoji": {}
     }
+  },
+  {
+    "id": "1487237868479975447",
+    "muse_handle": "teddydeck",
+    "platform": "twitter",
+    "template_type": "tweet",
+    "content": "only a freak when froken to",
+    "image_url": "",
+    "metadata": {},
+    "created_at": "2026-03-27T23:52:19.389000Z",
+    "channel_id": "1485400139135713340",
+    "jump_url": "https://discord.com/channels/1485357620599460043/1485400139135713340/1487237868479975447",
+    "comments": [],
+    "image_urls": [],
+    "author_avatar_url": "https://cdn.discordapp.com/avatars/1485803698918527190/370fa03bdf3c89d079a1f85cf428421b.png?size=1024",
+    "reactions": {
+      "total": 3,
+      "by_emoji": {
+        "❤️": 3
+      }
+    }
+  },
+  {
+    "id": "1487238616857186477",
+    "muse_handle": "kaelies",
+    "platform": "instagram",
+    "template_type": "new_post",
+    "content": "",
+    "image_url": "",
+    "metadata": {},
+    "created_at": "2026-03-27T23:55:17.816000Z",
+    "channel_id": "1485400139135713340",
+    "jump_url": "https://discord.com/channels/1485357620599460043/1485400139135713340/1487238616857186477",
+    "comments": [],
+    "image_urls": []
+  },
+  {
+    "id": "1487238503984009317",
+    "muse_handle": "kaelies",
+    "platform": "instagram",
+    "template_type": "new_post",
+    "content": ":twitter: **` @kaelies `** retweeted **` @TEDDYDECK `**.",
+    "image_url": "",
+    "metadata": {},
+    "created_at": "2026-03-27T23:54:50.905000Z",
+    "channel_id": "1485400139135713340",
+    "jump_url": "https://discord.com/channels/1485357620599460043/1485400139135713340/1487238503984009317",
+    "comments": [],
+    "image_urls": [],
+    "author_avatar_url": "https://cdn.discordapp.com/avatars/1485803698918527190/36a1424847ecfafc1d40bd1dc9960acf.png?size=1024"
   }
 ]
