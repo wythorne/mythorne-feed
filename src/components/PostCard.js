@@ -52,7 +52,7 @@ function renderMd(text) {
   s = s
     // Inline code: `code` or <code>code</code> → <code>escHtml(code)</code>
     .replace(/`([^`\n]+)`/g, (_, code) => `<code>${escHtml(code)}</code>`)
-    .replace(/<code>\s*(.*?)\s*<\/code>/gi, (_, code) => `<code>${escHtml(code)}</code>`)
+    .replace(/\x00OPEN\x00code\x00CLOSE\x00\s*(.*?)\s*\x00OPEN\x00\/code\x00CLOSE\x00/gi, (_, code) => `<code>${escHtml(code)}</code>`)
     // Bold: **text** → <strong>escHtml(text)</strong>
     .replace(/\*\*(.+?)\*\*/g, (_, code) => `<strong>${escHtml(code)}</strong>`)
     // Italic: *text* → <em>escHtml(text)</em>
