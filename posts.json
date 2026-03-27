@@ -95,8 +95,10 @@
     "comments": [],
     "author_avatar_url": "https://cdn.discordapp.com/avatars/1485803698918527190/3c5a725719da77de16c41029c4fe2398.png?size=1024",
     "reactions": {
-      "total": 0,
-      "by_emoji": {}
+      "total": 1,
+      "by_emoji": {
+        "<:retweet:1486191905380372611>": 1
+      }
     }
   },
   {
