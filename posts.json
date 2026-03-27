@@ -406,24 +406,6 @@
     }
   },
   {
-    "id": "1486984475278573649",
-    "muse_handle": "itsbrinababy",
-    "platform": "instagram",
-    "template_type": "new_post",
-    "content": "",
-    "image_url": "",
-    "metadata": {},
-    "created_at": "2026-03-27T07:05:25.742000Z",
-    "channel_id": "1486152565321109655",
-    "jump_url": "https://discord.com/channels/1485357620599460043/1486152565321109655/1486984475278573649",
-    "comments": [],
-    "author_avatar_url": "https://cdn.discordapp.com/avatars/1486158803706843199/172014803c733a3023dff8ab8bd08e37.png?size=1024",
-    "reactions": {
-      "total": 0,
-      "by_emoji": {}
-    }
-  },
-  {
     "id": "1486985094043402260",
     "muse_handle": "xoxobuffy",
     "platform": "instagram",
@@ -456,6 +438,26 @@
     "jump_url": "https://discord.com/channels/1485357620599460043/1486152565321109655/1486987702690775041",
     "comments": [],
     "author_avatar_url": "https://cdn.discordapp.com/avatars/1486158803706843199/8551dbbbc8fe147ac1931d9826301eef.png?size=1024",
+    "reactions": {
+      "total": 0,
+      "by_emoji": {}
+    }
+  },
+  {
+    "id": "1486989142859710464",
+    "muse_handle": "itsbrinababy",
+    "platform": "maps",
+    "template_type": "location",
+    "content": "",
+    "image_url": "",
+    "metadata": {
+      "location": "THE NORTHEAST BEACH"
+    },
+    "created_at": "2026-03-27T07:23:58.580000Z",
+    "channel_id": "1486152565321109655",
+    "jump_url": "https://discord.com/channels/1485357620599460043/1486152565321109655/1486989142859710464",
+    "comments": [],
+    "author_avatar_url": "https://cdn.discordapp.com/avatars/1486158803706843199/172014803c733a3023dff8ab8bd08e37.png?size=1024",
     "reactions": {
       "total": 0,
       "by_emoji": {}
