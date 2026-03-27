@@ -38,9 +38,9 @@ function renderMd(text) {
   if (!text) return ''
 
   // Placeholder tokens for HTML tag delimiters — unlikely to appear in user text
-  const OPEN  = '\x00OPEN\x00'
+  const OPEN = '\x00OPEN\x00'
   const CLOSE = '\x00CLOSE\x00'
-  const AMP   = '\x00AMP\x00'
+  const AMP = '\x00AMP\x00'
 
   // Step 1: Protect HTML tag delimiters in the raw text
   let s = text
@@ -50,8 +50,9 @@ function renderMd(text) {
 
   // Step 2: Convert Discord markdown → HTML (content is still plain text here)
   s = s
-    // Inline code: `code` → <code>escHtml(code)</code>
+    // Inline code: `code` or <code>code</code> → <code>escHtml(code)</code>
     .replace(/`([^`\n]+)`/g, (_, code) => `<code>${escHtml(code)}</code>`)
+    .replace(/<code>\s*(.*?)\s*<\/code>/gi, (_, code) => `<code>${escHtml(code)}</code>`)
     // Bold: **text** → <strong>escHtml(text)</strong>
     .replace(/\*\*(.+?)\*\*/g, (_, code) => `<strong>${escHtml(code)}</strong>`)
     // Italic: *text* → <em>escHtml(text)</em>
@@ -154,6 +155,22 @@ function renderComments(comments) {
   `
 }
 
+// ── Post images (multi-photo support) ─────────────────────────────────────────
+function renderPostImages(post) {
+  const { image_url, image_urls } = post
+  const urls = image_urls && image_urls.length > 0 ? image_urls : (image_url ? [image_url] : [])
+  if (urls.length === 0) return ''
+
+  const multiClass = urls.length > 1 ? 'multi-image' : ''
+  return `
+    <div class="card-image-wrap ${multiClass}" data-count="${urls.length}">
+      ${urls.map(url => `
+        <img src="${escAttr(url)}" alt="Post image" loading="lazy" data-lightbox="${escAttr(url)}" />
+      `).join('')}
+    </div>
+  `
+}
+
 // ── Full post card ────────────────────────────────────────────────────────────
 export function renderPostCard(post, muse, opts = {}) {
   const { showMuseLink = true } = opts
@@ -180,11 +197,7 @@ export function renderPostCard(post, muse, opts = {}) {
         </div>
       </div>
       ${renderPostContent(post)}
-      ${post.image_url ? `
-        <div class="card-image-wrap">
-          <img src="${escAttr(post.image_url)}" alt="Post image" loading="lazy" data-lightbox="${escAttr(post.image_url)}" />
-        </div>
-      ` : ''}
+      ${renderPostImages(post)}
       <div class="card-footer">
         ${reactionDisplay(post.reactions)}
         ${hasComments ? `
