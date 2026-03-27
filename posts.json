@@ -990,5 +990,21 @@
       "total": 0,
       "by_emoji": {}
     }
+  },
+  {
+    "id": "1486987702690775041",
+    "muse_handle": "um.wells",
+    "platform": "maps",
+    "template_type": "location",
+    "content": "",
+    "image_url": "",
+    "metadata": {
+      "location": "THE NORTHEAST BEACH"
+    },
+    "created_at": "2026-03-27T07:18:15.217000Z",
+    "channel_id": "1486152565321109655",
+    "jump_url": "https://discord.com/channels/1485357620599460043/1486152565321109655/1486987702690775041",
+    "comments": [],
+    "author_avatar_url": "https://cdn.discordapp.com/avatars/1486158803706843199/8551dbbbc8fe147ac1931d9826301eef.png?size=1024"
   }
 ]
