@@ -114,5 +114,65 @@
       "total": 0,
       "by_emoji": {}
     }
+  },
+  {
+    "id": "1486921915133329571",
+    "muse_handle": "teags",
+    "platform": "maps",
+    "template_type": "location_with_companion",
+    "content": "",
+    "image_url": "",
+    "metadata": {
+      "location": "LUCKY'S BOARDWALK",
+      "companion": "jettsetter"
+    },
+    "created_at": "2026-03-27T02:56:50.241000Z",
+    "channel_id": "1486584152185766069",
+    "jump_url": "https://discord.com/channels/1229134964956729385/1486584152185766069/1486921915133329571",
+    "comments": [],
+    "author_avatar_url": "https://cdn.discordapp.com/avatars/1486584509603381339/b26c186a3ba25e758861abe013276355.png?size=1024",
+    "reactions": {
+      "total": 0,
+      "by_emoji": {}
+    }
+  },
+  {
+    "id": "1486922026471133246",
+    "muse_handle": "bryandsons",
+    "platform": "steam",
+    "template_type": "time_played",
+    "content": "",
+    "image_url": "",
+    "metadata": {
+      "game": "FIFA 26",
+      "play_duration": "11 HOURS"
+    },
+    "created_at": "2026-03-27T02:57:16.786000Z",
+    "channel_id": "1486584152185766069",
+    "jump_url": "https://discord.com/channels/1229134964956729385/1486584152185766069/1486922026471133246",
+    "comments": [],
+    "author_avatar_url": "https://cdn.discordapp.com/avatars/1486584509603381339/c7b6b7667e556605970acef6bcc972dc.png?size=1024",
+    "reactions": {
+      "total": 0,
+      "by_emoji": {}
+    }
+  },
+  {
+    "id": "1486922349604503674",
+    "muse_handle": "ferretry",
+    "platform": "instagram",
+    "template_type": "new_post",
+    "content": "*toto,* i have a feeling we're not in kansas anymore *!*",
+    "image_url": "https://cdn.discordapp.com/attachments/1486584152185766069/1486922349457707160/121e8929eb522e0baec0249da0cabf7f.png?ex=69c743d9&is=69c5f259&hm=705fa22425754929e5f2c10a97ae0994fe9297d260eb30d9a5bc6dad45081fa7&",
+    "metadata": {},
+    "created_at": "2026-03-27T02:58:33.827000Z",
+    "channel_id": "1486584152185766069",
+    "jump_url": "https://discord.com/channels/1229134964956729385/1486584152185766069/1486922349604503674",
+    "comments": [],
+    "author_avatar_url": "https://cdn.discordapp.com/avatars/1486584509603381339/c0fdb746f60547293d034bed919c3636.png?size=1024",
+    "reactions": {
+      "total": 0,
+      "by_emoji": {}
+    }
   }
 ]
