@@ -1,141 +1,13 @@
 [
   {
-    "handle": "ferretry",
-    "display_name": "Ferretry",
+    "handle": "addams",
+    "display_name": "Addams",
     "writer_id": null,
     "writer_name": "Unknown",
     "pronouns": "",
     "wythorne_class": "",
     "bio": "",
-    "pfp_url": "https://cdn.discordapp.com/avatars/1486584509603381339/c0fdb746f60547293d034bed919c3636.png?size=1024",
-    "platform_links": {
-      "instagram": null,
-      "steam": null,
-      "spotify": null,
-      "twitter": null
-    }
-  },
-  {
-    "handle": "bryandsons",
-    "display_name": "Bryandsons",
-    "writer_id": null,
-    "writer_name": "Unknown",
-    "pronouns": "",
-    "wythorne_class": "",
-    "bio": "",
-    "pfp_url": "https://cdn.discordapp.com/avatars/1486584509603381339/c7b6b7667e556605970acef6bcc972dc.png?size=1024",
-    "platform_links": {
-      "instagram": null,
-      "steam": null,
-      "spotify": null,
-      "twitter": null
-    }
-  },
-  {
-    "handle": "teags",
-    "display_name": "Teags",
-    "writer_id": null,
-    "writer_name": "Unknown",
-    "pronouns": "",
-    "wythorne_class": "",
-    "bio": "",
-    "pfp_url": "https://cdn.discordapp.com/avatars/1486584509603381339/b26c186a3ba25e758861abe013276355.png?size=1024",
-    "platform_links": {
-      "instagram": null,
-      "steam": null,
-      "spotify": null,
-      "twitter": null
-    }
-  },
-  {
-    "handle": "littleangel",
-    "display_name": "Littleangel",
-    "writer_id": null,
-    "writer_name": "Unknown",
-    "pronouns": "",
-    "wythorne_class": "",
-    "bio": "",
-    "pfp_url": "https://cdn.discordapp.com/avatars/1486584509603381339/0ecb7c09530247a1d8d3debf51e9f98c.png?size=1024",
-    "platform_links": {
-      "instagram": null,
-      "steam": null,
-      "spotify": null,
-      "twitter": null
-    }
-  },
-  {
-    "handle": "c.c.coswell",
-    "display_name": "C.C.Coswell",
-    "writer_id": null,
-    "writer_name": "Unknown",
-    "pronouns": "",
-    "wythorne_class": "",
-    "bio": "",
-    "pfp_url": "https://cdn.discordapp.com/avatars/1486584509603381339/3884cc04fdf3e446e3a14ef414d63b44.png?size=1024",
-    "platform_links": {
-      "instagram": null,
-      "steam": null,
-      "spotify": null,
-      "twitter": null
-    }
-  },
-  {
-    "handle": "um.wells",
-    "display_name": "Um.Wells",
-    "writer_id": null,
-    "writer_name": "Unknown",
-    "pronouns": "",
-    "wythorne_class": "",
-    "bio": "",
-    "pfp_url": "https://cdn.discordapp.com/avatars/1486584509603381339/3c5a725719da77de16c41029c4fe2398.png?size=1024",
-    "platform_links": {
-      "instagram": null,
-      "steam": null,
-      "spotify": null,
-      "twitter": null
-    }
-  },
-  {
-    "handle": "ftronan",
-    "display_name": "Ftronan",
-    "writer_id": null,
-    "writer_name": "Unknown",
-    "pronouns": "",
-    "wythorne_class": "",
-    "bio": "",
-    "pfp_url": "https://cdn.discordapp.com/avatars/1485803698918527190/1b5a7360fe5ca1d93f65eac3e40c200e.png?size=1024",
-    "platform_links": {
-      "instagram": null,
-      "steam": null,
-      "spotify": null,
-      "twitter": null
-    }
-  },
-  {
-    "handle": "sk8terjacks",
-    "display_name": "Sk8Terjacks",
-    "writer_id": null,
-    "writer_name": "Unknown",
-    "pronouns": "",
-    "wythorne_class": "",
-    "bio": "",
-    "pfp_url": "https://cdn.discordapp.com/avatars/1485803698918527190/c106bdd586c2f0982e90aaefee32546b.png?size=1024",
-    "platform_links": {
-      "instagram": null,
-      "steam": null,
-      "spotify": null,
-      "twitter": null
-    }
-  },
-  {
-    "handle": "salemisking",
-    "display_name": "Salemisking",
-    "writer_id": null,
-    "writer_name": "Unknown",
-    "pronouns": "",
-    "wythorne_class": "",
-    "bio": "",
-    "pfp_url": "https://cdn.discordapp.com/avatars/1486158803706843199/e737cc725778190826f6917e2e6aeb49.png?size=1024",
+    "pfp_url": "",
     "platform_links": {
       "instagram": null,
       "steam": null,
@@ -151,7 +23,7 @@
     "pronouns": "",
     "wythorne_class": "",
     "bio": "",
-    "pfp_url": "https://cdn.discordapp.com/avatars/1486158803706843199/15d8242b4d346662533e13c599591ad3.png?size=1024",
+    "pfp_url": "",
     "platform_links": {
       "instagram": null,
       "steam": null,
@@ -160,14 +32,366 @@
     }
   },
   {
-    "handle": "thelizzieafton",
-    "display_name": "Thelizzieafton",
+    "handle": "astridsworld",
+    "display_name": "Astridsworld",
     "writer_id": null,
     "writer_name": "Unknown",
     "pronouns": "",
     "wythorne_class": "",
     "bio": "",
-    "pfp_url": "https://cdn.discordapp.com/avatars/1486158803706843199/2dfbe43f590bb74eeac784eee54b76dc.png?size=1024",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "bryandsons",
+    "display_name": "Bryandsons",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "catsie",
+    "display_name": "Catsie",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "cccoswell",
+    "display_name": "Cccoswell",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "cullenry",
+    "display_name": "Cullenry",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "denwhtkr",
+    "display_name": "Denwhtkr",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "enslavedinsomniac",
+    "display_name": "Enslavedinsomniac",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "ferretry",
+    "display_name": "Ferretry",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "fireb0rnmas",
+    "display_name": "Fireb0Rnmas",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "inventorvi",
+    "display_name": "Inventorvi",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "iphilark",
+    "display_name": "Iphilark",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "iris.inks",
+    "display_name": "Iris Inks",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "jettsetter",
+    "display_name": "Jettsetter",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "keljoy",
+    "display_name": "Keljoy",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "kitty_moon",
+    "display_name": "Kitty Moon",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "luvmichi",
+    "display_name": "Luvmichi",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "maeticry",
+    "display_name": "Maeticry",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "niran.pruksamanee",
+    "display_name": "Niran Pruksamanee",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "noravee",
+    "display_name": "Noravee",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "poeticisadora",
+    "display_name": "Poeticisadora",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "salemisking",
+    "display_name": "Salemisking",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "selinagram",
+    "display_name": "Selinagram",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "sk8terjacks",
+    "display_name": "Sk8Terjacks",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
     "platform_links": {
       "instagram": null,
       "steam": null,
@@ -183,7 +407,215 @@
     "pronouns": "",
     "wythorne_class": "",
     "bio": "",
-    "pfp_url": "https://cdn.discordapp.com/avatars/1486158803706843199/f1c269306fb7495d5f745ea3593f0c6b.png?size=1024",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "sora<3",
+    "display_name": "Sora<3",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "spellmon",
+    "display_name": "Spellmon",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "spiritnari",
+    "display_name": "Spiritnari",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "teags",
+    "display_name": "Teags",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "thelizzieafton",
+    "display_name": "Thelizzieafton",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "thesongbird",
+    "display_name": "Thesongbird",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "um.wells",
+    "display_name": "Um Wells",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "violetrae",
+    "display_name": "Violetrae",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "xoxobuffy",
+    "display_name": "Xoxobuffy",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "lovecat",
+    "display_name": "Lovecat",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "ftronan",
+    "display_name": "Ftronan",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "kaelies",
+    "display_name": "Kaelies",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "c.c.coswell",
+    "display_name": "C C Coswell",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "",
     "platform_links": {
       "instagram": null,
       "steam": null,
