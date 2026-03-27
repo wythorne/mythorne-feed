@@ -846,24 +846,6 @@
     }
   },
   {
-    "id": "1486262330928136223",
-    "muse_handle": "teags",
-    "platform": "instagram",
-    "template_type": "new_post",
-    "content": "[Reply to](<https://discord.com/channels/@me/1485399780438970398/1486251451335442493>): @—𝘺𝘰𝘰𝘫𝘪𝘯. (<@!1028419700650156032>)",
-    "image_url": "",
-    "metadata": {},
-    "created_at": "2026-03-25T07:15:53.112000Z",
-    "channel_id": "1485399780438970398",
-    "jump_url": "https://discord.com/channels/1485357620599460043/1485399780438970398/1486262330928136223",
-    "comments": [],
-    "author_avatar_url": "https://cdn.discordapp.com/avatars/1485760678013833246/9f21027bdcc3548296eef1932f9ff4ce.png?size=1024",
-    "reactions": {
-      "total": 0,
-      "by_emoji": {}
-    }
-  },
-  {
     "id": "1486248839206928494",
     "muse_handle": "ftronan",
     "platform": "twitter",
@@ -878,60 +860,6 @@
     "jump_url": "https://discord.com/channels/1485357620599460043/1485400139135713340/1486248839206928494",
     "comments": [],
     "author_avatar_url": "https://cdn.discordapp.com/avatars/1485803698918527190/1b5a7360fe5ca1d93f65eac3e40c200e.png?size=1024",
-    "reactions": {
-      "total": 0,
-      "by_emoji": {}
-    }
-  },
-  {
-    "id": "1486245274677411941",
-    "muse_handle": "sk8terjacks",
-    "platform": "twitter",
-    "template_type": "tweet",
-    "content": "[Reply to](<https://discord.com/channels/@me/1485400139135713340/1486244936511787050>): @𓆛₊˚ෆ⊹ 𝑝𝑒𝑟𝑐𝑦 𝑗𝑎𝑐𝑘𝑠𝑜𝑛 (<@!477609226789715989>)",
-    "image_url": "",
-    "metadata": {},
-    "created_at": "2026-03-25T06:08:06.585000Z",
-    "channel_id": "1485400139135713340",
-    "jump_url": "https://discord.com/channels/1485357620599460043/1485400139135713340/1486245274677411941",
-    "comments": [],
-    "author_avatar_url": "https://cdn.discordapp.com/avatars/1485803698918527190/c106bdd586c2f0982e90aaefee32546b.png?size=1024",
-    "reactions": {
-      "total": 0,
-      "by_emoji": {}
-    }
-  },
-  {
-    "id": "1486190813602906263",
-    "muse_handle": "um.wells",
-    "platform": "twitter",
-    "template_type": "tweet",
-    "content": "[Reply to](<https://discord.com/channels/@me/1485400139135713340/1486189537020477440>): @ᨳ𐔌՞҂ WELLS STUTLER ˕ ֊՞𐦯ᜊ (<@!1064696730060337252>)",
-    "image_url": "",
-    "metadata": {},
-    "created_at": "2026-03-25T02:31:42.053000Z",
-    "channel_id": "1485400139135713340",
-    "jump_url": "https://discord.com/channels/1485357620599460043/1485400139135713340/1486190813602906263",
-    "comments": [],
-    "author_avatar_url": "https://cdn.discordapp.com/avatars/1485803698918527190/a9485014ec50e995f00de46b575d366b.png?size=1024",
-    "reactions": {
-      "total": 0,
-      "by_emoji": {}
-    }
-  },
-  {
-    "id": "1486189975136501901",
-    "muse_handle": "um.wells",
-    "platform": "twitter",
-    "template_type": "tweet",
-    "content": "[Reply to](<https://discord.com/channels/@me/1485400139135713340/1486189537020477440>): @ᨳ𐔌՞҂ WELLS STUTLER ˕ ֊՞𐦯ᜊ (<@!1064696730060337252>)",
-    "image_url": "",
-    "metadata": {},
-    "created_at": "2026-03-25T02:28:22.147000Z",
-    "channel_id": "1485400139135713340",
-    "jump_url": "https://discord.com/channels/1485357620599460043/1485400139135713340/1486189975136501901",
-    "comments": [],
-    "author_avatar_url": "https://cdn.discordapp.com/avatars/1485803698918527190/370fa03bdf3c89d079a1f85cf428421b.png?size=1024",
     "reactions": {
       "total": 0,
       "by_emoji": {}
