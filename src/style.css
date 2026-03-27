@@ -13,7 +13,7 @@
   --paper-edge: #d4c8a8;
   --paper-text: #1a1210;
   --paper-muted: #6b5a44;
-  --paper-faint: #979797;
+  --paper-faint: #6b5a44;
 
   /* Platform pins */
   --pin-instagram: #9b5b76;
@@ -323,6 +323,17 @@ img { max-width: 100%; display: block; }
   font-style: italic;
   font-weight: 600;
   color: var(--paper-text);
+}
+
+/* @mention links in post content */
+.card-body .mention {
+  color: #9b5b76;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+.card-body .mention:hover {
+  text-decoration: underline;
 }
 
 /* Card image */
@@ -1018,31 +1029,29 @@ img { max-width: 100%; display: block; }
 
 /* ─── Rendered markdown ─────────────────────────────────────────────────── */
 .card-body code {
-  background: rgba(255,255,255,.08);
-  border: 1px solid rgba(255,255,255,.15);
+  background: rgba(0,0,0,.04);
+  border: 1px solid rgba(0,0,0,.08);
   border-radius: 3px;
   padding: .1em .35em;
   font-size: .88em;
   font-family: 'Courier New', Courier, monospace;
-  color: var(--accent-rose, #f4a0b5);
+  color: black;
 }
 
 .card-body strong {
-  color: var(--paper, #f4f0e8);
+  color: black;
   font-weight: 600;
 }
 
 .card-body em {
   font-style: italic;
-  color: rgba(244,240,232,.85);
+  color: black;
 }
 
 .card-body del {
   opacity: .5;
   text-decoration: line-through;
 }
-
-/* CDN cache-bust 2026-03-26-2333 */
 
 /* ─── Page Transitions (Zoom Feel) ────────────────────────────────────────── */
 @keyframes view-enter {

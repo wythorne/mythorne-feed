@@ -58,6 +58,12 @@ function renderMd(text) {
     .replace(/(?<!\*)\*(?!\*)([^\*\n]+)(?<!\*)\*(?!\*)/g, (_, code) => `<em>${escHtml(code)}</em>`)
     // Strikethrough: ~~text~~ → <del>escHtml(text)</del>
     .replace(/~~(.+?)~~/g, (_, code) => `<del>${escHtml(code)}</del>`)
+    // Discord @mentions: @username → styled mention link
+    // Only matches bare @mentions (not already wrapped in ** or `)
+    .replace(/(?<![`*\w])@([\w.<>-]+)/g, (_, handle) => {
+      const h = escHtml(handle)
+      return `<a href="#/muse/${h.toLowerCase()}" class="mention" data-nav-muse="${h.toLowerCase()}">@${h}</a>`
+    })
 
   // Step 3: Restore protected chars as proper HTML entities
   return s
