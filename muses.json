@@ -16,30 +16,14 @@
     }
   },
   {
-    "handle": "littleangel",
-    "display_name": "Littleangel",
+    "handle": "bryandsons",
+    "display_name": "Bryandsons",
     "writer_id": null,
     "writer_name": "Unknown",
     "pronouns": "",
     "wythorne_class": "",
     "bio": "",
-    "pfp_url": "https://cdn.discordapp.com/avatars/1486584509603381339/0ecb7c09530247a1d8d3debf51e9f98c.png?size=1024",
-    "platform_links": {
-      "instagram": null,
-      "steam": null,
-      "spotify": null,
-      "twitter": null
-    }
-  },
-  {
-    "handle": "cain",
-    "display_name": "Cain",
-    "writer_id": null,
-    "writer_name": "Unknown",
-    "pronouns": "",
-    "wythorne_class": "",
-    "bio": "",
-    "pfp_url": "https://cdn.discordapp.com/avatars/1486584509603381339/3884cc04fdf3e446e3a14ef414d63b44.png?size=1024",
+    "pfp_url": "https://cdn.discordapp.com/avatars/1486584509603381339/c7b6b7667e556605970acef6bcc972dc.png?size=1024",
     "platform_links": {
       "instagram": null,
       "steam": null,
@@ -55,7 +39,23 @@
     "pronouns": "",
     "wythorne_class": "",
     "bio": "",
-    "pfp_url": "https://cdn.discordapp.com/avatars/1486584509603381339/9f21027bdcc3548296eef1932f9ff4ce.png?size=1024",
+    "pfp_url": "https://cdn.discordapp.com/avatars/1486584509603381339/b26c186a3ba25e758861abe013276355.png?size=1024",
+    "platform_links": {
+      "instagram": null,
+      "steam": null,
+      "spotify": null,
+      "twitter": null
+    }
+  },
+  {
+    "handle": "littleangel",
+    "display_name": "Littleangel",
+    "writer_id": null,
+    "writer_name": "Unknown",
+    "pronouns": "",
+    "wythorne_class": "",
+    "bio": "",
+    "pfp_url": "https://cdn.discordapp.com/avatars/1486584509603381339/0ecb7c09530247a1d8d3debf51e9f98c.png?size=1024",
     "platform_links": {
       "instagram": null,
       "steam": null,
@@ -88,22 +88,6 @@
     "wythorne_class": "",
     "bio": "",
     "pfp_url": "https://cdn.discordapp.com/avatars/1486584509603381339/3c5a725719da77de16c41029c4fe2398.png?size=1024",
-    "platform_links": {
-      "instagram": null,
-      "steam": null,
-      "spotify": null,
-      "twitter": null
-    }
-  },
-  {
-    "handle": "bryandsons",
-    "display_name": "Bryandsons",
-    "writer_id": null,
-    "writer_name": "Unknown",
-    "pronouns": "",
-    "wythorne_class": "",
-    "bio": "",
-    "pfp_url": "",
     "platform_links": {
       "instagram": null,
       "steam": null,
